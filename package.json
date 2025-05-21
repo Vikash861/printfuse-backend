@@ -7,6 +7,9 @@
     "start": "node server.js",
     "prisma": "prisma generate && prisma migrate deploy"
   },
+  "prisma": {
+    "schema": "src/prisma/schema.prisma"
+  },
   "dependencies": {
     "@prisma/client": "^6.8.2",
     "@woocommerce/woocommerce-rest-api": "^1.0.1",
